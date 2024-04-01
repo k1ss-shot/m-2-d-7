@@ -12,11 +12,19 @@
 
 
 
-cities = ['MOSKOW', 'BISHKEK', 'ALMATY', 'BERLIN']
+# cities = ['MOSKOW', 'BISHKEK', 'ALMATY', 'BERLIN']
 
-# def make_to_lower(city_name):
-#     return city_name.lower()
+# # def make_to_lower(city_name):
+# #     return city_name.lower()
 
-cities_lower = list(map(lambda city_name: city_name.lower(), cities))
+# cities_lower = list(map(lambda city_name: city_name.lower(), cities))
 
-print(cities_lower)
+# print(cities_lower)
+
+number_list = [4, 3, 6 ,8, 9]
+
+number_list = list(filter(lambda x: x%2 == 0, number_list))
+
+number_list = list(map(lambda x: pow(x,3), number_list))
+
+print(number_list)
