@@ -47,10 +47,24 @@ from random import randint
 #         result.append(number)
 #     return result
 
-numbers = [randint(1, 101) for n in range(20)]
-print(numbers)
+# numbers = [randint(1, 101) for n in range(20)]
+# print(numbers)
 
 
-numbers = list(map(lambda x: x * 2, numbers))
+# numbers = list(map(lambda x: x * 2, numbers))
 
-print(numbers)
+# print(numbers)
+
+
+
+'''
+task 6
+'''
+
+# numbers = [randint(1, 100) for n in range(20)]
+
+# print(numbers)
+
+# numbers = reduce(lambda x, y: x + y**2, numbers)
+
+# print(numbers)
