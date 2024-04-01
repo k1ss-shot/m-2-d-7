@@ -75,7 +75,7 @@ task 6
 # print(list(filter(lambda x: len(x) > 5, strings)))
 
 
-number = [1, 2, 3, 4, 5, -2, -23, -32 , 0]
+# number = [1, 2, 3, 4, 5, -2, -23, -32 , 0]
 
 # number = reduce(lambda x, y: x * y, number)
 
@@ -83,4 +83,9 @@ number = [1, 2, 3, 4, 5, -2, -23, -32 , 0]
 
 # print(list(filter(lambda x: x > 0, number)))
 
-print(list(map(lambda x: str(x), number)))
+# print(list(map(lambda x: str(x), number)))
+
+numbers = [randint(1, 30) for x in range(20)]
+print(numbers)
+
+print(list(filter(lambda x: x>=10 and x < 20, numbers)))
