@@ -81,4 +81,6 @@ number = [1, 2, 3, 4, 5, -2, -23, -32 , 0]
 
 # print(number)
 
-print(list(filter(lambda x: x > 0, number)))
+# print(list(filter(lambda x: x > 0, number)))
+
+print(list(map(lambda x: str(x), number)))
