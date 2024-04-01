@@ -30,9 +30,27 @@ from functools import reduce
 # print(number_list)
 
 
-numbers = [21, 32, 2, 122, 32]
+# numbers = [21, 32, 2, 122, 32]
 
-numbers = list(filter(lambda x: x%2 != 0, numbers))
-numbers = reduce(lambda x, y: x + y, numbers)
+# numbers = list(filter(lambda x: x%2 != 0, numbers))
+# numbers = reduce(lambda x, y: x + y, numbers)
+
+# print(numbers)
+
+from random import randint
+
+# def generate_random_numbers():
+#     result = []
+    
+#     for n in range(20):
+#         number = randint(1,101)
+#         result.append(number)
+#     return result
+
+numbers = [randint(1, 101) for n in range(20)]
+print(numbers)
+
+
+numbers = list(map(lambda x: x * 2, numbers))
 
 print(numbers)
