@@ -70,6 +70,15 @@ task 6
 # print(numbers)
 
 
-strings = ['apple', 'banana', 'cherry', 'grape', 'watermelon']
+# strings = ['apple', 'banana', 'cherry', 'grape', 'watermelon']
 
-print(list(filter(lambda x: len(x) > 5, strings)))
+# print(list(filter(lambda x: len(x) > 5, strings)))
+
+
+number = [1, 2, 3, 4, 5, -2, -23, -32 , 0]
+
+# number = reduce(lambda x, y: x * y, number)
+
+# print(number)
+
+print(list(filter(lambda x: x > 0, number)))
