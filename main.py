@@ -68,3 +68,8 @@ task 6
 # numbers = reduce(lambda x, y: x + y**2, numbers)
 
 # print(numbers)
+
+
+strings = ['apple', 'banana', 'cherry', 'grape', 'watermelon']
+
+print(list(filter(lambda x: len(x) > 5, strings)))
